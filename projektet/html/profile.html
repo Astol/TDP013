@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="profile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  </head>
+  <body>
+    <div id="panel">
+      <img id="picture" src="NewmanStorm.jpg" alt="Picture of newmanstorms logo">
+      <p id="namehead">Your ID</p>
+      <button id="add" type="button">FRIEND</button>
+      <div class="ui-widget">
+        <input class="textfield" id="namesearch" type="text" placeholder="Friend"></input>
+        <button id="submit" type="button">Go!</button>
+      </div>
+
+    </div>
+    <div id="content">
+      <div id="friends">
+        <h2>Friends: </h2>
+        <p id="friendlist">You will never have friends</p>
+      </div>
+      <div id="board">
+        <textarea id="msgboard" placeholder="Does this person like your fingers?"></textarea>
+          <button id="submitmsg" type="button">Post</button>
+          <ul id="posts">
+          </ul>
+      </div>
+    </div>
+    <a id="logout" href="">Logout</a>
+    <script type="text/javascript" src="profile.js"></script>
+  </body>
+</html>
